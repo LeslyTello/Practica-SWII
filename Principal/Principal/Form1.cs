@@ -19,18 +19,6 @@ namespace Principal
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-            String n1 = txtNombre1.Text;
-            String n2 = txtNombre2.Text;
-            String n3 = txtApellido1.Text;
-            String n4 = textBox1.Text;
-
-            Cliente c = new Cliente(n1, n2, n3, n4);
-            c.insertarCliente(c);
-
-
         //codigo del boton restaurar
         private void btnCerrar_Click(object sender, EventArgs e)
         {
