@@ -122,6 +122,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // barraTitulo
             // 
@@ -135,6 +136,7 @@
             this.barraTitulo.Name = "barraTitulo";
             this.barraTitulo.Size = new System.Drawing.Size(1100, 35);
             this.barraTitulo.TabIndex = 6;
+            this.barraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.barraTitulo_Paint);
             this.barraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.barraTitulo_MouseDown);
             // 
             // btnRestaurar

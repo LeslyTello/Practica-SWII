@@ -58,5 +58,27 @@ namespace Principal
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void barraTitulo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String n1=txtNombre1.Text;
+            String n2 = txtNombre2.Text;
+            String n3 = txtApellido1.Text;
+            String n4 = textBox1.Text;
+
+            Cliente c = new Cliente(n1, n2, n3, n4);
+           
+            MessageBox.Show("Registrado con éxito");
+            c.insertarCliente(c);
+            txtNombre1.Text = "";
+            txtNombre2.Text = "";
+            txtApellido1.Text = "";
+            textBox1.Text = "";
+        }
     }
 }
