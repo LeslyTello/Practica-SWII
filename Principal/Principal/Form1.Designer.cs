@@ -43,7 +43,7 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCentral = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtApellido2 = new System.Windows.Forms.TextBox();
             this.lblApellido2 = new System.Windows.Forms.Label();
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
@@ -217,7 +217,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
-            this.panelCentral.Controls.Add(this.textBox1);
+            this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
             this.panelCentral.Controls.Add(this.txtNombre2);
@@ -232,12 +232,12 @@
             this.panelCentral.Size = new System.Drawing.Size(922, 515);
             this.panelCentral.TabIndex = 8;
             // 
-            // textBox1
+            // txtApellido2
             // 
-            this.textBox1.Location = new System.Drawing.Point(628, 120);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtApellido2.Location = new System.Drawing.Point(628, 120);
+            this.txtApellido2.Name = "txtApellido2";
+            this.txtApellido2.Size = new System.Drawing.Size(169, 20);
+            this.txtApellido2.TabIndex = 7;
             // 
             // lblApellido2
             // 
@@ -314,7 +314,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtNombre1;
         private System.Windows.Forms.TextBox txtNombre2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
     }

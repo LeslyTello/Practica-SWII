@@ -69,7 +69,7 @@ namespace Principal
             String n1=txtNombre1.Text;
             String n2 = txtNombre2.Text;
             String n3 = txtApellido1.Text;
-            String n4 = textBox1.Text;
+            String n4 = txtApellido2.Text;
 
             Cliente c = new Cliente(n1, n2, n3, n4);
            
@@ -78,7 +78,7 @@ namespace Principal
             txtNombre1.Text = "";
             txtNombre2.Text = "";
             txtApellido1.Text = "";
-            textBox1.Text = "";
+            txtApellido2.Text = "";
         }
     }
 }
