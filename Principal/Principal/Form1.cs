@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Principal
 {
@@ -17,16 +18,58 @@ namespace Principal
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
 
-            String n1 = textBox1.Text;
-            String n2 = textBox2.Text;
-            String n3 = textBox3.Text;
-            String n4 = textBox4.Text;
+            String n1 = txtNombre1.Text;
+            String n2 = txtNombre2.Text;
+            String n3 = txtApellido1.Text;
+            String n4 = textBox1.Text;
 
             Cliente c = new Cliente(n1, n2, n3, n4);
             c.insertarCliente(c);
+
+
+        //codigo del boton restaurar
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        //codigo del boton maximizar
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible = false;
+            btnRestaurar.Visible = true;
+        }
+
+        //codigo del boton minimizar
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+        
+        //codigo del boton restaurar
+        private void btnRestaurar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRestaurar.Visible = false;
+            btnMaximizar.Visible = true;
+        }
+
+        //codigo para mover la GUI desde la barra de titulo
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void barraTitulo_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
 
         }
     }
