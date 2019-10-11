@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblNombre1 = new System.Windows.Forms.Label();
+            this.lblNombre2 = new System.Windows.Forms.Label();
+            this.lblApellido1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.barraTitulo = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
@@ -43,6 +43,11 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.txtNombre2 = new System.Windows.Forms.TextBox();
+            this.txtApellido1 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblApellido2 = new System.Windows.Forms.Label();
             this.barraTitulo.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panelCentral.SuspendLayout();
@@ -75,38 +80,41 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Cliente";
             // 
-            // label3
+            // lblNombre1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 295);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblNombre1.AutoSize = true;
+            this.lblNombre1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblNombre1.Location = new System.Drawing.Point(126, 77);
+            this.lblNombre1.Name = "lblNombre1";
+            this.lblNombre1.Size = new System.Drawing.Size(76, 13);
+            this.lblNombre1.TabIndex = 2;
+            this.lblNombre1.Text = "Primer Nombre";
             // 
-            // label4
+            // lblNombre2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 363);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lblNombre2.AutoSize = true;
+            this.lblNombre2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblNombre2.Location = new System.Drawing.Point(468, 77);
+            this.lblNombre2.Name = "lblNombre2";
+            this.lblNombre2.Size = new System.Drawing.Size(90, 13);
+            this.lblNombre2.TabIndex = 3;
+            this.lblNombre2.Text = "Segundo Nombre";
             // 
-            // label5
+            // lblApellido1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 411);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lblApellido1.AutoSize = true;
+            this.lblApellido1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblApellido1.Location = new System.Drawing.Point(126, 124);
+            this.lblApellido1.Name = "lblApellido1";
+            this.lblApellido1.Size = new System.Drawing.Size(76, 13);
+            this.lblApellido1.TabIndex = 4;
+            this.lblApellido1.Text = "Primer Apellido";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(78, 459);
+            this.button1.Location = new System.Drawing.Point(3, 447);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(175, 40);
             this.button1.TabIndex = 5;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -131,9 +139,6 @@
             this.panelMenu.Controls.Add(this.pictureBox1);
             this.panelMenu.Controls.Add(this.label2);
             this.panelMenu.Controls.Add(this.button1);
-            this.panelMenu.Controls.Add(this.label3);
-            this.panelMenu.Controls.Add(this.label5);
-            this.panelMenu.Controls.Add(this.label4);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 35);
             this.panelMenu.Name = "panelMenu";
@@ -143,7 +148,15 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(this.textBox1);
+            this.panelCentral.Controls.Add(this.lblApellido2);
+            this.panelCentral.Controls.Add(this.txtApellido1);
+            this.panelCentral.Controls.Add(this.txtNombre2);
+            this.panelCentral.Controls.Add(this.txtNombre1);
             this.panelCentral.Controls.Add(this.label1);
+            this.panelCentral.Controls.Add(this.lblApellido1);
+            this.panelCentral.Controls.Add(this.lblNombre1);
+            this.panelCentral.Controls.Add(this.lblNombre2);
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.Location = new System.Drawing.Point(178, 35);
             this.panelCentral.Name = "panelCentral";
@@ -194,7 +207,7 @@
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(1032, 3);
+            this.btnRestaurar.Location = new System.Drawing.Point(1032, 4);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -206,12 +219,50 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 61);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 43);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(153, 158);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            // 
+            // txtNombre1
+            // 
+            this.txtNombre1.Location = new System.Drawing.Point(208, 74);
+            this.txtNombre1.Name = "txtNombre1";
+            this.txtNombre1.Size = new System.Drawing.Size(169, 20);
+            this.txtNombre1.TabIndex = 3;
+            // 
+            // txtNombre2
+            // 
+            this.txtNombre2.Location = new System.Drawing.Point(564, 74);
+            this.txtNombre2.Name = "txtNombre2";
+            this.txtNombre2.Size = new System.Drawing.Size(169, 20);
+            this.txtNombre2.TabIndex = 4;
+            // 
+            // txtApellido1
+            // 
+            this.txtApellido1.Location = new System.Drawing.Point(208, 121);
+            this.txtApellido1.Name = "txtApellido1";
+            this.txtApellido1.Size = new System.Drawing.Size(169, 20);
+            this.txtApellido1.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(564, 121);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(169, 20);
+            this.textBox1.TabIndex = 7;
+            // 
+            // lblApellido2
+            // 
+            this.lblApellido2.AutoSize = true;
+            this.lblApellido2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblApellido2.Location = new System.Drawing.Point(468, 124);
+            this.lblApellido2.Name = "lblApellido2";
+            this.lblApellido2.Size = new System.Drawing.Size(90, 13);
+            this.lblApellido2.TabIndex = 6;
+            this.lblApellido2.Text = "Segundo Apellido";
             // 
             // Form1
             // 
@@ -242,9 +293,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblNombre1;
+        private System.Windows.Forms.Label lblNombre2;
+        private System.Windows.Forms.Label lblApellido1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel barraTitulo;
         private System.Windows.Forms.PictureBox btnCerrar;
@@ -254,6 +305,11 @@
         private System.Windows.Forms.PictureBox btnRestaurar;
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtNombre1;
+        private System.Windows.Forms.TextBox txtNombre2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblApellido2;
+        private System.Windows.Forms.TextBox txtApellido1;
     }
 }
 
