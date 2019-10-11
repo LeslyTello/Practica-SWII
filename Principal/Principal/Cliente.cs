@@ -8,8 +8,9 @@ namespace Principal
 {
     class Cliente
     {
-        
-        String nombre1, apellido1, nombre2,apellido2;
+
+        String nombre1, nombre2, apellido1, apellido2;
+
 
         public Cliente(String nombre, String nombre2, String apellido, String apellido2)
         {
@@ -23,10 +24,12 @@ namespace Principal
 
         public void insertarCliente(Cliente c)
         {
-            
-            string[] registro = { c.nombre1,c.nombre2,c.apellido1,c.apellido2};
-            System.IO.File.WriteAllLines(@"C:\Users\u\source\repos\Practica-SWII\Principal\Principal\registro.txt", registro);
-            
+
+
+            string[] registro = { c.nombre1, c.nombre2, c.apellido1, c.apellido2 };
+            System.IO.File.WriteAllLines(@"D:\registroCliente.txt", registro);
+
+
         }
     }
 }
