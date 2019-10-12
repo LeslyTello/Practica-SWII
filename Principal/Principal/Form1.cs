@@ -19,7 +19,7 @@ namespace Principal
         }
 
 
-        //codigo del boton restaurar
+        //codigo del boton cerrar
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
