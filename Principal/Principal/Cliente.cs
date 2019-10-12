@@ -25,7 +25,7 @@ namespace Principal
         {
             
             string[] registro = { c.nombre1,c.nombre2,c.apellido1,c.apellido2};
-            System.IO.File.WriteAllLines(@"C:\Users\u\source\repos\Practica-SWII\Principal\Principal\registro.txt", registro);
+            System.IO.File.WriteAllLines(@"D:\registroCliente.txt", registro);
             
         }
     }
