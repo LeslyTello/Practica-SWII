@@ -35,7 +35,6 @@
             this.lblNombre2 = new System.Windows.Forms.Label();
             this.lblApellido1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-
             this.barraTitulo = new System.Windows.Forms.Panel();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
@@ -49,6 +48,8 @@
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -57,13 +58,11 @@
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelCentral.SuspendLayout();
-
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(367, 16);
@@ -71,12 +70,10 @@
             this.label1.Size = new System.Drawing.Size(152, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingreso de Datos";
-
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(54, 16);
@@ -84,11 +81,9 @@
             this.label2.Size = new System.Drawing.Size(68, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Cliente";
-
             // 
             // lblNombre1
             // 
-
             this.lblNombre1.AutoSize = true;
             this.lblNombre1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -97,11 +92,9 @@
             this.lblNombre1.Size = new System.Drawing.Size(99, 16);
             this.lblNombre1.TabIndex = 2;
             this.lblNombre1.Text = "Primer Nombre";
-
             // 
             // lblNombre2
             // 
-
             this.lblNombre2.AutoSize = true;
             this.lblNombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre2.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -110,11 +103,9 @@
             this.lblNombre2.Size = new System.Drawing.Size(115, 16);
             this.lblNombre2.TabIndex = 3;
             this.lblNombre2.Text = "Segundo Nombre";
-
             // 
             // lblApellido1
             // 
-
             this.lblApellido1.AutoSize = true;
             this.lblApellido1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -130,13 +121,10 @@
             this.button1.Location = new System.Drawing.Point(0, 475);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(178, 40);
-
             this.button1.TabIndex = 5;
             this.button1.Text = "INGRESAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-
-
             // 
             // barraTitulo
             // 
@@ -231,6 +219,8 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(this.textBox1);
+            this.panelCentral.Controls.Add(this.label3);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -285,17 +275,33 @@
             this.txtNombre1.Size = new System.Drawing.Size(169, 20);
             this.txtNombre1.TabIndex = 3;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(208, 171);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(169, 20);
+            this.textBox1.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(102, 172);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 16);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "N° Cédula";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
             this.ClientSize = new System.Drawing.Size(1100, 550);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.barraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-
             this.Name = "Form1";
             this.Text = "Proyecto SW-II";
             this.barraTitulo.ResumeLayout(false);
@@ -334,7 +340,8 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
-
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
