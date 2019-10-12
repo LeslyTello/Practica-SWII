@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,8 +26,20 @@ namespace Principal
         {
             
             string[] registro = { c.nombre1,c.nombre2,c.apellido1,c.apellido2};
-            System.IO.File.WriteAllLines(@"D:\registroCliente.txt", registro);
-            
+            //System.IO.File.WriteAllLines(@"D:\registroCliente.txt", registro);
+
+            using (StreamWriter file = new StreamWriter(@"D:\registroCliente.txt", true))
+            {
+                for(int i=0; i<registro.Length; i++)
+                {
+                    file.WriteLine(registro[i]); //se agrega información al documento
+
+                    
+                }
+                file.Close();
+
+            }
+
         }
     }
 }
