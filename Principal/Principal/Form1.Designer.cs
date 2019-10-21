@@ -35,6 +35,7 @@
             this.lblNombre2 = new System.Windows.Forms.Label();
             this.lblApellido1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+
             this.barraTitulo = new System.Windows.Forms.Panel();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
@@ -58,11 +59,13 @@
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelCentral.SuspendLayout();
+
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(550, 25);
@@ -71,10 +74,12 @@
             this.label1.Size = new System.Drawing.Size(236, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingreso de Datos";
+
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(81, 25);
@@ -83,9 +88,11 @@
             this.label2.Size = new System.Drawing.Size(106, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "Cliente";
+
             // 
             // lblNombre1
             // 
+
             this.lblNombre1.AutoSize = true;
             this.lblNombre1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -95,9 +102,11 @@
             this.lblNombre1.Size = new System.Drawing.Size(142, 25);
             this.lblNombre1.TabIndex = 2;
             this.lblNombre1.Text = "Primer Nombre";
+
             // 
             // lblNombre2
             // 
+
             this.lblNombre2.AutoSize = true;
             this.lblNombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre2.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -107,9 +116,11 @@
             this.lblNombre2.Size = new System.Drawing.Size(166, 25);
             this.lblNombre2.TabIndex = 3;
             this.lblNombre2.Text = "Segundo Nombre";
+
             // 
             // lblApellido1
             // 
+
             this.lblApellido1.AutoSize = true;
             this.lblApellido1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -126,11 +137,17 @@
             this.button1.Location = new System.Drawing.Point(0, 730);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
+
             this.button1.Size = new System.Drawing.Size(267, 62);
+
+            this.button1.Size = new System.Drawing.Size(178, 40);
+
             this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
+            this.button1.Text = "INGRESAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+
+
             // 
             // barraTitulo
             // 
@@ -315,12 +332,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.ClientSize = new System.Drawing.Size(1650, 846);
+
+
+            this.ClientSize = new System.Drawing.Size(1100, 550);
+
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.barraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+
             this.Name = "Form1";
             this.Text = "Proyecto SW-II";
             this.barraTitulo.ResumeLayout(false);
@@ -345,6 +369,7 @@
         private System.Windows.Forms.Label lblNombre2;
         private System.Windows.Forms.Label lblApellido1;
         private System.Windows.Forms.Button button1;
+
         private System.Windows.Forms.Panel barraTitulo;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.Panel panelMenu;
@@ -358,8 +383,11 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
+
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label EDAD;
+
+
     }
 }
 
