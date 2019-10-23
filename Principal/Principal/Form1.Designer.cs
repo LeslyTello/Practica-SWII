@@ -50,6 +50,8 @@
             this.txtNombre1 = new System.Windows.Forms.TextBox();
             this.andrea = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.botonJonathan = new System.Windows.Forms.Button();
+
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -120,7 +122,7 @@
             this.lblApellido1.TabIndex = 4;
             this.lblApellido1.Text = "Primer Apellido";
             // 
-            // button1
+            // botonIngresar
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button1.Location = new System.Drawing.Point(0, 730);
@@ -220,10 +222,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 66);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 43);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(230, 243);
+            this.pictureBox1.Size = new System.Drawing.Size(153, 158);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -231,6 +232,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(this.botonJonathan);
 
             this.panelCentral.Controls.Add(this.andrea);
             //  this.panelCentral.Controls.Add(this.textBox1);
@@ -238,6 +240,8 @@
 
             this.panelCentral.Controls.Add(this.button3);
 
+
+            
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -276,7 +280,7 @@
             // 
             // txtApellido1
             // 
-            this.txtApellido1.Location = new System.Drawing.Point(312, 188);
+            this.txtApellido1.Location = new System.Drawing.Point(312, 186);
             this.txtApellido1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtApellido1.Name = "txtApellido1";
             this.txtApellido1.Size = new System.Drawing.Size(252, 26);
@@ -318,6 +322,24 @@
             this.button3.Click += new System.EventHandler(this.Button2_Click);
 
             // 
+            // botonJonathan
+            // 
+            this.botonJonathan.Location = new System.Drawing.Point(577, 221);
+            this.botonJonathan.Name = "botonJonathan";
+            this.botonJonathan.Size = new System.Drawing.Size(168, 36);
+            this.botonJonathan.TabIndex = 13;
+            this.botonJonathan.Text = "Jonathan Alarcón ";
+            this.botonJonathan.UseVisualStyleBackColor = true;
+            //
+            // botonJonathan
+            // 
+            this.botonJonathan.Location = new System.Drawing.Point(577, 221);
+            this.botonJonathan.Name = "botonJonathan";
+            this.botonJonathan.Size = new System.Drawing.Size(168, 36);
+            this.botonJonathan.TabIndex = 9;
+            this.botonJonathan.Text = "Jonathan Alarcón ";
+            this.botonJonathan.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -352,7 +374,6 @@
         private System.Windows.Forms.Label lblNombre2;
         private System.Windows.Forms.Label lblApellido1;
         private System.Windows.Forms.Button button1;
-
         private System.Windows.Forms.Panel barraTitulo;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.Panel panelMenu;
@@ -366,12 +387,14 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
+        
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label EDAD;
         private System.Windows.Forms.Button andrea;
         private System.Windows.Forms.Button button3;
 
+        private System.Windows.Forms.Button botonJonathan;
     }
 }
 
