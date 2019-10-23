@@ -41,5 +41,13 @@ namespace Principal
             }
 
         }
+
+
+        public int sumar(int a, int b)
+        {
+            int res;
+            return res = a + b;
+
+        }
     }
 }
