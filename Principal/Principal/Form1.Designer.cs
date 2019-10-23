@@ -43,12 +43,12 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCentral = new System.Windows.Forms.Panel();
+            this.bKarlita = new System.Windows.Forms.Button();
             this.txtApellido2 = new System.Windows.Forms.TextBox();
             this.lblApellido2 = new System.Windows.Forms.Label();
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -230,7 +230,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
-            this.panelCentral.Controls.Add(this.button2);
+            this.panelCentral.Controls.Add(this.bKarlita);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -246,6 +246,16 @@
             this.panelCentral.Name = "panelCentral";
             this.panelCentral.Size = new System.Drawing.Size(1383, 792);
             this.panelCentral.TabIndex = 8;
+            // 
+            // bKarlita
+            // 
+            this.bKarlita.Location = new System.Drawing.Point(1052, 304);
+            this.bKarlita.Name = "bKarlita";
+            this.bKarlita.Size = new System.Drawing.Size(155, 57);
+            this.bKarlita.TabIndex = 8;
+            this.bKarlita.Text = "Karla";
+            this.bKarlita.UseVisualStyleBackColor = true;
+            this.bKarlita.Click += new System.EventHandler(this.Button2_Click);
             // 
             // txtApellido2
             // 
@@ -290,16 +300,6 @@
             this.txtNombre1.Name = "txtNombre1";
             this.txtNombre1.Size = new System.Drawing.Size(252, 26);
             this.txtNombre1.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1052, 304);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 57);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Karla";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Form1
             // 
@@ -349,7 +349,7 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bKarlita;
     }
 }
 
