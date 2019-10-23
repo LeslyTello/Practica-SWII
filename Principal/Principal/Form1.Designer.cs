@@ -48,6 +48,7 @@
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.btnDavid = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -212,11 +213,11 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
-            
             // 
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(this.btnDavid);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -271,6 +272,15 @@
             this.txtNombre1.Size = new System.Drawing.Size(169, 20);
             this.txtNombre1.TabIndex = 3;
             // 
+            // btnDavid
+            // 
+            this.btnDavid.Location = new System.Drawing.Point(17, 475);
+            this.btnDavid.Name = "btnDavid";
+            this.btnDavid.Size = new System.Drawing.Size(184, 31);
+            this.btnDavid.TabIndex = 8;
+            this.btnDavid.Text = "David";
+            this.btnDavid.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -318,7 +328,7 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
-
+        private System.Windows.Forms.Button btnDavid;
     }
 }
 
