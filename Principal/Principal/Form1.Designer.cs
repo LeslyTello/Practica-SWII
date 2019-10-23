@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.Button David;
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblNombre1 = new System.Windows.Forms.Label();
@@ -50,6 +51,7 @@
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
+            David = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -219,6 +221,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(David);
             this.panelCentral.Controls.Add(this.txtCedula);
             this.panelCentral.Controls.Add(this.lblCedula);
             this.panelCentral.Controls.Add(this.txtApellido2);
@@ -292,6 +295,15 @@
             this.txtNombre1.Name = "txtNombre1";
             this.txtNombre1.Size = new System.Drawing.Size(169, 20);
             this.txtNombre1.TabIndex = 3;
+            // 
+            // David
+            // 
+            David.Location = new System.Drawing.Point(28, 420);
+            David.Name = "David";
+            David.Size = new System.Drawing.Size(174, 45);
+            David.TabIndex = 10;
+            David.Text = "David";
+            David.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
