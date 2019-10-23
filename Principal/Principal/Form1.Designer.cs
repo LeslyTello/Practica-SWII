@@ -43,6 +43,7 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCentral = new System.Windows.Forms.Panel();
+            this.bKarlita = new System.Windows.Forms.Button();
             this.txtApellido2 = new System.Windows.Forms.TextBox();
             this.lblApellido2 = new System.Windows.Forms.Label();
             this.txtApellido1 = new System.Windows.Forms.TextBox();
@@ -117,7 +118,7 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Location = new System.Drawing.Point(0, 475);
+            this.button1.Location = new System.Drawing.Point(0, 437);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(178, 40);
             this.button1.TabIndex = 5;
@@ -135,7 +136,7 @@
             this.barraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.barraTitulo.Location = new System.Drawing.Point(0, 0);
             this.barraTitulo.Name = "barraTitulo";
-            this.barraTitulo.Size = new System.Drawing.Size(1100, 35);
+            this.barraTitulo.Size = new System.Drawing.Size(924, 35);
             this.barraTitulo.TabIndex = 6;
             this.barraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.barraTitulo_MouseDown);
             // 
@@ -144,7 +145,7 @@
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(1032, 4);
+            this.btnRestaurar.Location = new System.Drawing.Point(856, 4);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -158,7 +159,7 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(1001, 4);
+            this.btnMinimizar.Location = new System.Drawing.Point(825, 4);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -171,7 +172,7 @@
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(1032, 4);
+            this.btnMaximizar.Location = new System.Drawing.Point(856, 4);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -184,7 +185,7 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1063, 4);
+            this.btnCerrar.Location = new System.Drawing.Point(887, 4);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(25, 25);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -201,7 +202,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 35);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(178, 515);
+            this.panelMenu.Size = new System.Drawing.Size(178, 477);
             this.panelMenu.TabIndex = 7;
             // 
             // pictureBox1
@@ -218,6 +219,7 @@
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
             this.panelCentral.Controls.Add(this.btnDavid);
+            this.panelCentral.Controls.Add(this.bKarlita);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -230,8 +232,19 @@
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.Location = new System.Drawing.Point(178, 35);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(922, 515);
+            this.panelCentral.Size = new System.Drawing.Size(746, 477);
             this.panelCentral.TabIndex = 8;
+            // 
+            // bKarlita
+            // 
+            this.bKarlita.Location = new System.Drawing.Point(701, 198);
+            this.bKarlita.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bKarlita.Name = "bKarlita";
+            this.bKarlita.Size = new System.Drawing.Size(103, 37);
+            this.bKarlita.TabIndex = 8;
+            this.bKarlita.Text = "Karla";
+            this.bKarlita.UseVisualStyleBackColor = true;
+            this.bKarlita.Click += new System.EventHandler(this.Button2_Click);
             // 
             // txtApellido2
             // 
@@ -253,7 +266,7 @@
             // 
             // txtApellido1
             // 
-            this.txtApellido1.Location = new System.Drawing.Point(208, 121);
+            this.txtApellido1.Location = new System.Drawing.Point(208, 122);
             this.txtApellido1.Name = "txtApellido1";
             this.txtApellido1.Size = new System.Drawing.Size(169, 20);
             this.txtApellido1.TabIndex = 5;
@@ -274,10 +287,10 @@
             // 
             // btnDavid
             // 
-            this.btnDavid.Location = new System.Drawing.Point(17, 475);
+            this.btnDavid.Location = new System.Drawing.Point(30, 434);
             this.btnDavid.Name = "btnDavid";
-            this.btnDavid.Size = new System.Drawing.Size(184, 31);
-            this.btnDavid.TabIndex = 8;
+            this.btnDavid.Size = new System.Drawing.Size(170, 31);
+            this.btnDavid.TabIndex = 9;
             this.btnDavid.Text = "David";
             this.btnDavid.UseVisualStyleBackColor = true;
             // 
@@ -285,7 +298,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1100, 550);
+            this.ClientSize = new System.Drawing.Size(924, 512);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.barraTitulo);
@@ -328,6 +341,7 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
+        private System.Windows.Forms.Button bKarlita;
         private System.Windows.Forms.Button btnDavid;
     }
 }
