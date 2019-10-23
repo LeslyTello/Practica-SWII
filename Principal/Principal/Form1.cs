@@ -84,5 +84,10 @@ namespace Principal
             txtApellido1.Text = "";
             txtApellido2.Text = "";
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
