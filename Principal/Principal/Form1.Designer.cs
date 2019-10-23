@@ -48,7 +48,7 @@
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.botonJonathan = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -231,7 +231,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
-            this.panelCentral.Controls.Add(this.button2);
+            this.panelCentral.Controls.Add(this.botonJonathan);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -292,14 +292,14 @@
             this.txtNombre1.Size = new System.Drawing.Size(252, 26);
             this.txtNombre1.TabIndex = 3;
             // 
-            // button2
+            // botonJonathan
             // 
-            this.button2.Location = new System.Drawing.Point(49, 237);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 36);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Jonathan Alarcón ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.botonJonathan.Location = new System.Drawing.Point(577, 221);
+            this.botonJonathan.Name = "botonJonathan";
+            this.botonJonathan.Size = new System.Drawing.Size(168, 36);
+            this.botonJonathan.TabIndex = 9;
+            this.botonJonathan.Text = "Jonathan Alarcón ";
+            this.botonJonathan.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -349,7 +349,7 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button botonJonathan;
     }
 }
 
