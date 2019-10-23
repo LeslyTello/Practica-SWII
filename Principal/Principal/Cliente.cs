@@ -12,6 +12,7 @@ namespace Principal
         String nombre1, nombre2, apellido1, apellido2;
 
 
+        //Este es un comentario por Jonathan Alarcón
         public Cliente(String nombre, String nombre2, String apellidoPaterno, String apellidoMaterno)
         {
             this.nombre1 = nombre;
