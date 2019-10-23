@@ -26,12 +26,13 @@ namespace Principal
             Application.Exit();
         }
 
-        //codigo del boton maximizar
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
             btnMaximizar.Visible = false;
             btnRestaurar.Visible = true;
+            
         }
 
         //codigo del boton minimizar
@@ -79,6 +80,9 @@ namespace Principal
             txtApellido2.Text = "";
         }
 
-        
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
