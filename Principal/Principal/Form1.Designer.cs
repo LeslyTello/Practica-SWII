@@ -294,9 +294,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(271, 447);
+            this.button2.Location = new System.Drawing.Point(49, 237);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(251, 110);
+            this.button2.Size = new System.Drawing.Size(168, 36);
             this.button2.TabIndex = 9;
             this.button2.Text = "Jonathan Alarcón ";
             this.button2.UseVisualStyleBackColor = true;
