@@ -50,6 +50,7 @@
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -232,6 +233,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(this.button2);
             this.panelCentral.Controls.Add(this.textBox1);
             this.panelCentral.Controls.Add(this.EDAD);
             this.panelCentral.Controls.Add(this.txtApellido2);
@@ -311,6 +313,15 @@
             this.txtNombre1.Size = new System.Drawing.Size(252, 26);
             this.txtNombre1.TabIndex = 3;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(409, 375);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -362,8 +373,7 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label EDAD;
-
-
+        private System.Windows.Forms.Button button2;
     }
 }
 
