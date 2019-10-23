@@ -49,6 +49,7 @@
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
             this.andrea = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -232,10 +233,10 @@
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
 
             this.panelCentral.Controls.Add(this.andrea);
-            this.panelCentral.Controls.Add(this.textBox1);
-            this.panelCentral.Controls.Add(this.EDAD);
+            //  this.panelCentral.Controls.Add(this.textBox1);
+            this.panelCentral.Controls.Add(this.EDAD);//
 
-            this.panelCentral.Controls.Add(this.button2);
+            this.panelCentral.Controls.Add(this.button3);
 
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
@@ -308,13 +309,13 @@
             this.andrea.UseVisualStyleBackColor = true;
             this.andrea.Click += new System.EventHandler(this.Button2_Click);
 
-            this.button2.Location = new System.Drawing.Point(1052, 304);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 57);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Karla";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.button3.Location = new System.Drawing.Point(1052, 304);
+            this.button3.Name = "button2";
+            this.button3.Size = new System.Drawing.Size(155, 57);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Karla";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button2_Click);
 
             // 
             // Form1
@@ -369,8 +370,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label EDAD;
         private System.Windows.Forms.Button andrea;
-
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
 
     }
 }
