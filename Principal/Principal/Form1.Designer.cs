@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblNombre1 = new System.Windows.Forms.Label();
@@ -43,6 +44,8 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCentral = new System.Windows.Forms.Panel();
+            this.txtCedula = new System.Windows.Forms.TextBox();
+            this.lblCedula = new System.Windows.Forms.Label();
             this.txtApellido2 = new System.Windows.Forms.TextBox();
             this.lblApellido2 = new System.Windows.Forms.Label();
             this.txtApellido1 = new System.Windows.Forms.TextBox();
@@ -51,6 +54,8 @@
             this.andrea = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.botonJonathan = new System.Windows.Forms.Button();
+
+            this.David = new System.Windows.Forms.Button();
 
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
@@ -239,9 +244,10 @@
             this.panelCentral.Controls.Add(this.EDAD);//
 
             this.panelCentral.Controls.Add(this.button3);
+            this.panelCentral.Controls.Add(David);
 
 
-            
+
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -331,20 +337,22 @@
             this.botonJonathan.Text = "Jonathan Alarcón ";
             this.botonJonathan.UseVisualStyleBackColor = true;
             //
-            // botonJonathan
+            
             // 
-            this.botonJonathan.Location = new System.Drawing.Point(577, 221);
-            this.botonJonathan.Name = "botonJonathan";
-            this.botonJonathan.Size = new System.Drawing.Size(168, 36);
-            this.botonJonathan.TabIndex = 9;
-            this.botonJonathan.Text = "Jonathan Alarcón ";
-            this.botonJonathan.UseVisualStyleBackColor = true;
+            // David
+            // 
+            David.Location = new System.Drawing.Point(28, 420);
+            David.Name = "David";
+            David.Size = new System.Drawing.Size(174, 45);
+            David.TabIndex = 14;
+            David.Text = "David";
+            David.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1650, 846);
+            this.ClientSize = new System.Drawing.Size(1100, 550);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.barraTitulo);
@@ -395,6 +403,7 @@
         private System.Windows.Forms.Button button3;
 
         private System.Windows.Forms.Button botonJonathan;
+        private System.Windows.Forms.Button David;
     }
 }
 
