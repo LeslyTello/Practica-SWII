@@ -43,8 +43,6 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCentral = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.EDAD = new System.Windows.Forms.Label();
             this.txtApellido2 = new System.Windows.Forms.TextBox();
             this.lblApellido2 = new System.Windows.Forms.Label();
             this.txtApellido1 = new System.Windows.Forms.TextBox();
@@ -124,10 +122,10 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Location = new System.Drawing.Point(0, 613);
+            this.button1.Location = new System.Drawing.Point(0, 730);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(267, 40);
+            this.button1.Size = new System.Drawing.Size(267, 62);
             this.button1.TabIndex = 5;
             this.button1.Text = "INGRESAR";
             this.button1.UseVisualStyleBackColor = true;
@@ -144,9 +142,8 @@
             this.barraTitulo.Location = new System.Drawing.Point(0, 0);
             this.barraTitulo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.barraTitulo.Name = "barraTitulo";
-            this.barraTitulo.Size = new System.Drawing.Size(1504, 54);
+            this.barraTitulo.Size = new System.Drawing.Size(1650, 54);
             this.barraTitulo.TabIndex = 6;
-            this.barraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.barraTitulo_Paint);
             this.barraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.barraTitulo_MouseDown);
             // 
             // btnRestaurar
@@ -154,7 +151,7 @@
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(1402, 6);
+            this.btnRestaurar.Location = new System.Drawing.Point(1548, 6);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(38, 38);
@@ -169,7 +166,7 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(1356, 6);
+            this.btnMinimizar.Location = new System.Drawing.Point(1502, 6);
             this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(38, 38);
@@ -183,7 +180,7 @@
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(1402, 6);
+            this.btnMaximizar.Location = new System.Drawing.Point(1548, 6);
             this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(38, 38);
@@ -197,7 +194,7 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1448, 6);
+            this.btnCerrar.Location = new System.Drawing.Point(1594, 6);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(38, 38);
@@ -216,7 +213,7 @@
             this.panelMenu.Location = new System.Drawing.Point(0, 54);
             this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(267, 653);
+            this.panelMenu.Size = new System.Drawing.Size(267, 792);
             this.panelMenu.TabIndex = 7;
             // 
             // pictureBox1
@@ -234,8 +231,6 @@
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
             this.panelCentral.Controls.Add(this.button2);
-            this.panelCentral.Controls.Add(this.textBox1);
-            this.panelCentral.Controls.Add(this.EDAD);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -249,25 +244,8 @@
             this.panelCentral.Location = new System.Drawing.Point(267, 54);
             this.panelCentral.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(1237, 653);
+            this.panelCentral.Size = new System.Drawing.Size(1383, 792);
             this.panelCentral.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(314, 262);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 26);
-            this.textBox1.TabIndex = 9;
-            // 
-            // EDAD
-            // 
-            this.EDAD.AutoSize = true;
-            this.EDAD.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.EDAD.Location = new System.Drawing.Point(154, 266);
-            this.EDAD.Name = "EDAD";
-            this.EDAD.Size = new System.Drawing.Size(55, 20);
-            this.EDAD.TabIndex = 8;
-            this.EDAD.Text = "EDAD";
             // 
             // txtApellido2
             // 
@@ -291,7 +269,7 @@
             // 
             // txtApellido1
             // 
-            this.txtApellido1.Location = new System.Drawing.Point(312, 186);
+            this.txtApellido1.Location = new System.Drawing.Point(312, 188);
             this.txtApellido1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtApellido1.Name = "txtApellido1";
             this.txtApellido1.Size = new System.Drawing.Size(252, 26);
@@ -315,18 +293,19 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(409, 375);
+            this.button2.Location = new System.Drawing.Point(1052, 304);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "button2";
+            this.button2.Size = new System.Drawing.Size(155, 57);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Karla";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1504, 707);
+            this.ClientSize = new System.Drawing.Size(1650, 846);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.barraTitulo);
@@ -370,9 +349,6 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label EDAD;
         private System.Windows.Forms.Button button2;
     }
 }
