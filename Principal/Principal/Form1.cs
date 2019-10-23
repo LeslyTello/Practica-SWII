@@ -19,20 +19,20 @@ namespace Principal
         }
 
 
-       
-
+        
         //codigo del boton restaurar
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        //codigo del boton maximizar
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
             btnMaximizar.Visible = false;
             btnRestaurar.Visible = true;
+            
         }
 
         //codigo del boton minimizar
@@ -63,20 +63,15 @@ namespace Principal
 
         }
 
-        private void barraTitulo_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            String n1=txtNombre1.Text;
+            String n1 = txtNombre1.Text;
             String n2 = txtNombre2.Text;
             String n3 = txtApellido1.Text;
             String n4 = txtApellido2.Text;
 
             Cliente c = new Cliente(n1, n2, n3, n4);
-           
+
             MessageBox.Show("Registrado con éxito");
             c.insertarCliente(c);
             txtNombre1.Text = "";
