@@ -48,6 +48,7 @@
             this.txtApellido1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -63,9 +64,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(367, 16);
+            this.label1.Location = new System.Drawing.Point(550, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 24);
+            this.label1.Size = new System.Drawing.Size(236, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingreso de Datos";
             // 
@@ -74,9 +76,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(54, 16);
+            this.label2.Location = new System.Drawing.Point(81, 25);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 24);
+            this.label2.Size = new System.Drawing.Size(106, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "Cliente";
             // 
@@ -85,9 +88,10 @@
             this.lblNombre1.AutoSize = true;
             this.lblNombre1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblNombre1.Location = new System.Drawing.Point(102, 77);
+            this.lblNombre1.Location = new System.Drawing.Point(153, 118);
+            this.lblNombre1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre1.Name = "lblNombre1";
-            this.lblNombre1.Size = new System.Drawing.Size(99, 16);
+            this.lblNombre1.Size = new System.Drawing.Size(142, 25);
             this.lblNombre1.TabIndex = 2;
             this.lblNombre1.Text = "Primer Nombre";
             // 
@@ -96,9 +100,10 @@
             this.lblNombre2.AutoSize = true;
             this.lblNombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblNombre2.Location = new System.Drawing.Point(506, 78);
+            this.lblNombre2.Location = new System.Drawing.Point(759, 120);
+            this.lblNombre2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre2.Name = "lblNombre2";
-            this.lblNombre2.Size = new System.Drawing.Size(115, 16);
+            this.lblNombre2.Size = new System.Drawing.Size(166, 25);
             this.lblNombre2.TabIndex = 3;
             this.lblNombre2.Text = "Segundo Nombre";
             // 
@@ -107,18 +112,20 @@
             this.lblApellido1.AutoSize = true;
             this.lblApellido1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblApellido1.Location = new System.Drawing.Point(102, 122);
+            this.lblApellido1.Location = new System.Drawing.Point(153, 188);
+            this.lblApellido1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellido1.Name = "lblApellido1";
-            this.lblApellido1.Size = new System.Drawing.Size(100, 16);
+            this.lblApellido1.Size = new System.Drawing.Size(143, 25);
             this.lblApellido1.TabIndex = 4;
             this.lblApellido1.Text = "Primer Apellido";
             // 
             // botonIngresar
             // 
             this.botonIngresar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.botonIngresar.Location = new System.Drawing.Point(0, 475);
+            this.botonIngresar.Location = new System.Drawing.Point(0, 730);
+            this.botonIngresar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.botonIngresar.Name = "botonIngresar";
-            this.botonIngresar.Size = new System.Drawing.Size(178, 40);
+            this.botonIngresar.Size = new System.Drawing.Size(267, 62);
             this.botonIngresar.TabIndex = 5;
             this.botonIngresar.Text = "INGRESAR";
             this.botonIngresar.UseVisualStyleBackColor = true;
@@ -133,8 +140,9 @@
             this.barraTitulo.Controls.Add(this.btnCerrar);
             this.barraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.barraTitulo.Location = new System.Drawing.Point(0, 0);
+            this.barraTitulo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.barraTitulo.Name = "barraTitulo";
-            this.barraTitulo.Size = new System.Drawing.Size(1100, 35);
+            this.barraTitulo.Size = new System.Drawing.Size(1650, 54);
             this.barraTitulo.TabIndex = 6;
             this.barraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.barraTitulo_Paint);
             this.barraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.barraTitulo_MouseDown);
@@ -144,9 +152,10 @@
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(1032, 4);
+            this.btnRestaurar.Location = new System.Drawing.Point(1548, 6);
+            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
+            this.btnRestaurar.Size = new System.Drawing.Size(38, 38);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnRestaurar.TabIndex = 1;
             this.btnRestaurar.TabStop = false;
@@ -158,9 +167,10 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(1001, 4);
+            this.btnMinimizar.Location = new System.Drawing.Point(1502, 6);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimizar.Size = new System.Drawing.Size(38, 38);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 2;
             this.btnMinimizar.TabStop = false;
@@ -171,9 +181,10 @@
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(1032, 4);
+            this.btnMaximizar.Location = new System.Drawing.Point(1548, 6);
+            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
+            this.btnMaximizar.Size = new System.Drawing.Size(38, 38);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMaximizar.TabIndex = 1;
             this.btnMaximizar.TabStop = false;
@@ -184,9 +195,10 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1063, 4);
+            this.btnCerrar.Location = new System.Drawing.Point(1594, 6);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(25, 25);
+            this.btnCerrar.Size = new System.Drawing.Size(38, 38);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 0;
             this.btnCerrar.TabStop = false;
@@ -199,17 +211,19 @@
             this.panelMenu.Controls.Add(this.label2);
             this.panelMenu.Controls.Add(this.botonIngresar);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 35);
+            this.panelMenu.Location = new System.Drawing.Point(0, 54);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(178, 515);
+            this.panelMenu.Size = new System.Drawing.Size(267, 792);
             this.panelMenu.TabIndex = 7;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(20, 66);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(153, 158);
+            this.pictureBox1.Size = new System.Drawing.Size(230, 243);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -217,6 +231,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
+            this.panelCentral.Controls.Add(this.button2);
             this.panelCentral.Controls.Add(this.txtApellido2);
             this.panelCentral.Controls.Add(this.lblApellido2);
             this.panelCentral.Controls.Add(this.txtApellido1);
@@ -227,16 +242,18 @@
             this.panelCentral.Controls.Add(this.lblNombre1);
             this.panelCentral.Controls.Add(this.lblNombre2);
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCentral.Location = new System.Drawing.Point(178, 35);
+            this.panelCentral.Location = new System.Drawing.Point(267, 54);
+            this.panelCentral.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(922, 515);
+            this.panelCentral.Size = new System.Drawing.Size(1383, 792);
             this.panelCentral.TabIndex = 8;
             // 
             // txtApellido2
             // 
-            this.txtApellido2.Location = new System.Drawing.Point(628, 120);
+            this.txtApellido2.Location = new System.Drawing.Point(942, 185);
+            this.txtApellido2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtApellido2.Name = "txtApellido2";
-            this.txtApellido2.Size = new System.Drawing.Size(169, 20);
+            this.txtApellido2.Size = new System.Drawing.Size(252, 26);
             this.txtApellido2.TabIndex = 7;
             // 
             // lblApellido2
@@ -244,42 +261,56 @@
             this.lblApellido2.AutoSize = true;
             this.lblApellido2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblApellido2.Location = new System.Drawing.Point(506, 121);
+            this.lblApellido2.Location = new System.Drawing.Point(759, 186);
+            this.lblApellido2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellido2.Name = "lblApellido2";
-            this.lblApellido2.Size = new System.Drawing.Size(116, 16);
+            this.lblApellido2.Size = new System.Drawing.Size(167, 25);
             this.lblApellido2.TabIndex = 6;
             this.lblApellido2.Text = "Segundo Apellido";
             // 
             // txtApellido1
             // 
-            this.txtApellido1.Location = new System.Drawing.Point(208, 121);
+            this.txtApellido1.Location = new System.Drawing.Point(312, 186);
+            this.txtApellido1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtApellido1.Name = "txtApellido1";
-            this.txtApellido1.Size = new System.Drawing.Size(169, 20);
+            this.txtApellido1.Size = new System.Drawing.Size(252, 26);
             this.txtApellido1.TabIndex = 5;
             // 
             // txtNombre2
             // 
-            this.txtNombre2.Location = new System.Drawing.Point(628, 73);
+            this.txtNombre2.Location = new System.Drawing.Point(942, 112);
+            this.txtNombre2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre2.Name = "txtNombre2";
-            this.txtNombre2.Size = new System.Drawing.Size(169, 20);
+            this.txtNombre2.Size = new System.Drawing.Size(252, 26);
             this.txtNombre2.TabIndex = 4;
             // 
             // txtNombre1
             // 
-            this.txtNombre1.Location = new System.Drawing.Point(208, 74);
+            this.txtNombre1.Location = new System.Drawing.Point(312, 114);
+            this.txtNombre1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre1.Name = "txtNombre1";
-            this.txtNombre1.Size = new System.Drawing.Size(169, 20);
+            this.txtNombre1.Size = new System.Drawing.Size(252, 26);
             this.txtNombre1.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(271, 447);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(251, 110);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Jonathan Alarcón ";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1100, 550);
+            this.ClientSize = new System.Drawing.Size(1650, 846);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.barraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Proyecto SW-II";
             this.barraTitulo.ResumeLayout(false);
@@ -318,7 +349,7 @@
         private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lblApellido2;
         private System.Windows.Forms.TextBox txtApellido1;
-
+        private System.Windows.Forms.Button button2;
     }
 }
 
