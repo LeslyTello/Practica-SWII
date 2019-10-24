@@ -12,12 +12,13 @@ namespace Principal
         String nombre1, nombre2, apellido1, apellido2;
 
 
-        public Cliente(String nombre, String nombre2, String apellido, String apellido2)
+        //Este es un comentario por Jonathan Alarcón
+        public Cliente(String nombre, String nombre2, String apellidoPaterno, String apellidoMaterno)
         {
             this.nombre1 = nombre;
             this.nombre2 = nombre2;
-            this.apellido1 = apellido;
-            this.apellido2 = apellido2;
+            this.apellido1 = apellidoPaterno;
+            this.apellido2 = apellidoMaterno;
         }
 
 
